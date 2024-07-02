@@ -1,0 +1,226 @@
+id,workout_type,Distance,Duration(min),Calories
+0,Roller Skate,9.3,30,245
+1,Freestyle_swimming,3.44,10,68
+2,Free style_swimming,2.44,15,102
+3,Walking,7.91,60,245
+4,Walking,8.99,30,123
+5,Walking,5.47,100,408
+6,Indoor Cycling,6.28,60,700
+7,indoor Cycling,2.94,50,583
+8,indoor Cycling,2.87,30,350
+9,Swimming,3.91,15,105
+10,Swimming,6.31,120,840
+11,Swimming,2.37,60,420
+12,Running,3.5,50,572
+13,Running,1.86,111,"1,269"
+14,Running,8.41,70,800
+15,Treadmill,6.77,100,408
+16,Treadmill,5.69,78,319
+17,Treadmill,6.54,118,482
+18,Outdoor Cycling,1.89,120,"1,400"
+19,Outdoor Cycle,1.48,60,700
+20,Outdoor Cycle,2.21,30,350
+21,Weight lifting,9.45,60,245
+22,Weight lifting,2.78,30,123
+23,Weight lifting,5.66,80,327
+24,Trail Run,3.71,50,572
+25,Trail Run,6.52,60,686
+26,Trail Run,6.41,30,343
+27,Treadmill,3.95,60,245
+28,Treadmill,8.23,90,368
+29,Treadmill,1.71,100,408
+30,Freestyle(swimming),3.25,50,338
+31,Freestyle(swimming),2.73,120,812
+32,Freestyle(swimming),6.7,100,677
+33,Swimming,5.19,30,210
+34,Swimming,1.72,40,280
+35,Swimming,8.36,50,350
+36,Running,6.41,100,"1,143"
+37,Running,1.9,120,"1,372"
+38,Running,8.26,60,686
+39,Cricket,9.15,80,448
+40,Cricket,3.5,30,168
+41,Cricket,2.92,15,84
+42,Freestyle(swimming),2.43,50,338
+43,Freestyle(swimming),8.3,120,812
+44,Freestyle(swimming),1,90,609
+45,Walking,1.49,60,245
+46,Walking,6.86,70,286
+47,Walking,7.19,111,453
+48,Trail Run,2.29,15,172
+49,Trail Run,8.81,110,"1,258"
+50,Trail Run,5.38,100,"1,143"
+51,Cycling,7.61,80,933
+52,Cycling,2.7,20,233
+53,Cycling,6.12,40,467
+54,Freestyle(swimming),1.81,50,338
+55,Freestyle(swimming),8.24,30,203
+56,Freestyle(swimming),8.34,100,677
+57,Treadmill,1.42,20,82
+58,Treadmill,4.73,80,327
+59,Treadmill,5.88,60,245
+60,Freestyle(swimming),7.19,90,609
+61,Freestyle(swimming),1.35,30,203
+62,Freestyle(swimming),2.74,100,677
+63,Swimming,2.96,15,105
+64,Swimming,4.82,108,756
+65,Swimming,2.54,75,525
+66,Treadmill,2.69,90,368
+67,Treadmill,2.14,60,245
+68,Treadmill,3.95,10,41
+69,Walking,3.44,15,61
+70,Walking,6.13,80,327
+71,Walking,9.39,65,265
+72,Running,9.83,105,"1,201"
+73,Running,7.41,45,515
+74,Running,3.38,40,457
+75,Indoor Cycling,2.56,85,992
+76,Indoor Cycling,1.65,60,700
+77,Indoor Cycling,3,120,"1,400"
+78,Cycling,2.1,115,"1,342"
+79,Cycling,1.27,70,817
+80,Cycling,5.11,86,"1,003"
+81,Treadmill,2.35,103,421
+82,Treadmill,1.58,77,314
+83,Treadmill,9.1,100,408
+84,Treadmill,3.37,120,490
+85,Swimming,7.49,10,70
+86,Swimming,8.39,100,700
+87,Swimming,4.5,80,560
+88,Freestyle(swimming),8.47,45,305
+89,Freestyle(swimming),3.44,105,711
+90,Freestyle(swimming),3.63,40,271
+91,Running,7.77,60,686
+92,Running,8.79,70,800
+93,Running,2.27,35,400
+94,Indoor Cycling,7.34,80,933
+95,indoor Cycling,8.89,75,875
+96,Indoor Cycling,3.22,60,700
+97,Trail Run,7.82,60,686
+98,Trail Run,5.29,20,229
+99,Trail Run,1.64,30,343
+100,Freestyle(swimming),2.97,87,589
+101,Freestyle(swimming),2.52,60,406
+102,Freestyle(swimming),8.56,50,338
+103,Trail Run,7.67,90,"1,029"
+104,Trail Run,2.16,120,"1,372"
+105,Trail Run,8.6,50,572
+106,Walking,5.28,40,163
+107,Walking,5.6,60,245
+108,Walking,3.41,65,265
+109,Swimming,4.22,80,560
+110,Swimming,9.8,120,840
+111,Swimming,8.61,30,210
+112,Treadmill,9.6,100,408
+113,Treadmill,3.96,105,429
+114,Treadmill,2.43,25,102
+115,Cricket,8.84,95,532
+116,Cricket,7.11,80,448
+117,Cricket,3.17,60,336
+118,Indoor Cycling,7.72,50,583
+119,indoor Cycling,6.74,86,"1,003"
+120,indoor Cycling,8.61,44,513
+121,Swimming,7.24,78,546
+122,Swimming,6.38,96,672
+123,Swimming,5.22,30,210
+124,Cycling,2.1,120,"1,400"
+125,Cycling,8.67,60,700
+126,Cycling,7.87,90,"1,050"
+127,Walking,5.51,70,286
+128,Walking,4.19,100,408
+129,Walking,3.27,40,163
+130,Freestyle,5.15,50,338
+131,Freestyle,6.41,60,406
+132,Freestyle,6.27,30,203
+133,Running,5.84,60,686
+134,Running,4.14,70,800
+135,Running,1.19,80,915
+136,indoor Cycling,1.57,30,350
+137,Indoor Cycling,1.5,15,175
+138,Indoor Cycling,5.56,50,583
+139,Swimming,2.1,30,210
+140,Swimming,2.39,15,105
+141,Swimming,9.8,60,420
+142,Walking,1.96,30,123
+143,Walking,3.33,120,490
+144,Walking,3.54,30,123
+145,Cricket,9.34,40,224
+146,Cricket,1.85,120,672
+147,Cricket,2.42,30,168
+148,Freestyle,3.78,60,406
+149,Freestyle,7.82,30,203
+150,Freestyle,8.49,80,541
+151,Swimming,1.4,70,490
+152,Swimming,9.15,90,630
+153,Swimming,6.85,15,105
+154,Treadmill,3.98,10,41
+155,Treadmill,9.66,60,245
+156,Treadmill,5.44,50,204
+157,Running,3.65,60,686
+158,Running,4.39,30,343
+159,Running,5.4,20,229
+160,Cricket,9.3,30,168
+161,Cricket,2.67,10,56
+162,Cricket,1.69,15,84
+163,Treadmill,2.29,80,327
+164,Treadmill,4.15,111,453
+165,Treadmill,5.91,100,408
+166,Freestyle(swimming),1.39,120,812
+167,Freestyle(swimming),8.71,90,609
+168,Freestyle(swimming),7.5,100,677
+169,Running,2.9,80,915
+170,Running,9.87,60,686
+171,Running,5.26,75,858
+172,Treadmill,2.86,40,163
+173,Treadmill,6.62,30,123
+174,Treadmill,2.66,30,123
+175,Cycling,7.3,100,"1,167"
+176,Cycling,7.35,95,"1,108"
+177,Cycling,8.59,25,292
+178,Cricket,1.97,100,560
+179,Cricket,5.41,75,420
+180,Cricket,9.7,20,112
+181,indoor Cycling,9.77,30,350
+182,indoor Cycling,2.2,70,817
+183,indoor Cycling,1.5,120,"1,400"
+184,Walking,9.47,50,204
+185,Walking,8.33,60,245
+186,Walking,6.74,100,408
+187,Cricket,1.43,25,140
+188,Cricket,3.22,40,224
+189,Cricket,2.81,90,504
+190,Swimming,6.32,60,420
+191,Swimming,7.91,90,630
+192,Swimming,4.88,70,490
+193,Freestyle(swimming),4.92,80,541
+194,Freestyle(swimming),2.86,120,812
+195,Freestyle(swimming),2.47,90,609
+196,Trail Run,5.92,80,915
+197,Trail Run,8.99,120,"1,372"
+198,Trail Run,6.5,60,686
+200,Freestyle(swimming),1.49,30,203
+201,Freestyle(swimming),5.77,20,135
+202,Freestyle(swimming),4.56,90,609
+203,Climb hills,3.5,30,186
+204,Racewalk,2.5,15,61
+205,Boating,4.5,40,117
+206,Marching,6.8,25,131
+207,Ice skating,5.7,10,64
+208,Paddle boat,4.2,20,93
+209,General housework,5.5,60,336
+210,Gardening,4.6,50,134
+211,Gardening,4.6,100,268
+212,Ice skating,5.92,30,193
+213,Climb hills,8.28,60,448
+214,Paddle boat,3.6,50,233
+215,Racewalk,1.4,15,61
+216,Marching,7.8,40,210
+217,Swimming,6.5,50,350
+218,Cycling,3.5,70,817
+219,Walking,5.8,60,245
+220,Running,7.5,40,457
+221,Indoor Cycling,8.5,100,"1,167"
+222,Treadmill,4.5,120,490
+223,Trail Run,4.8,30,343
+224,Freestyle(swimming),7.5,70,474
+225,Roller Skate,9.5,90,735

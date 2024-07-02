@@ -1,0 +1,292 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Food</th>
+      <th>Calories</th>
+      <th>Grams</th>
+      <th>Category</th>
+      <th>Measure</th>
+      <th>Protein</th>
+      <th>Fat</th>
+      <th>Fiber</th>
+      <th>Carbs</th>
+      <th>Sat.Fat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>Milk skim</td>
+      <td>360.0</td>
+      <td>984</td>
+      <td>Dairy products</td>
+      <td>1 qt.</td>
+      <td>36.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>52.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Evaporated undiluted</td>
+      <td>345.0</td>
+      <td>252</td>
+      <td>Dairy products</td>
+      <td>1 cup</td>
+      <td>16.0</td>
+      <td>20</td>
+      <td>0.0</td>
+      <td>24.0</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Ice cream</td>
+      <td>300.0</td>
+      <td>188</td>
+      <td>Dairy products</td>
+      <td>1 cup</td>
+      <td>6.0</td>
+      <td>18</td>
+      <td>0.0</td>
+      <td>29.0</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>Steak</td>
+      <td>330.0</td>
+      <td>85</td>
+      <td>Meat Poultry</td>
+      <td>3 oz.</td>
+      <td>20.0</td>
+      <td>27</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>Duck domestic</td>
+      <td>370.0</td>
+      <td>100</td>
+      <td>Meat Poultry</td>
+      <td>3 1/2 oz.</td>
+      <td>16.0</td>
+      <td>28</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>Leg roasted</td>
+      <td>314.0</td>
+      <td>86</td>
+      <td>Meat Poultry</td>
+      <td>3 oz.</td>
+      <td>20.0</td>
+      <td>14</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>Pork roast</td>
+      <td>310.0</td>
+      <td>85</td>
+      <td>Meat Poultry</td>
+      <td>3 oz.</td>
+      <td>21.0</td>
+      <td>24</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>Roast</td>
+      <td>305.0</td>
+      <td>85</td>
+      <td>Meat Poultry</td>
+      <td>3 oz.</td>
+      <td>13.0</td>
+      <td>14</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>196</th>
+      <td>Frozen</td>
+      <td>330.0</td>
+      <td>210</td>
+      <td>Fruits</td>
+      <td>6-oz. can</td>
+      <td>2.0</td>
+      <td>0</td>
+      <td>0.4</td>
+      <td>78.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>229</th>
+      <td>Corn meal</td>
+      <td>360.0</td>
+      <td>118</td>
+      <td>Breads cereals fastfoodgrains</td>
+      <td>1 cup</td>
+      <td>9.0</td>
+      <td>4</td>
+      <td>1.6</td>
+      <td>74.0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>275</th>
+      <td>Bread pudding</td>
+      <td>374.0</td>
+      <td>200</td>
+      <td>Desserts sweets</td>
+      <td>3/4 cup</td>
+      <td>11.0</td>
+      <td>12</td>
+      <td>0.2</td>
+      <td>56.0</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>285</th>
+      <td>Fudge</td>
+      <td>370.0</td>
+      <td>90</td>
+      <td>Desserts sweets</td>
+      <td>2 pieces</td>
+      <td>0.0</td>
+      <td>12</td>
+      <td>0.1</td>
+      <td>80.0</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>293</th>
+      <td>Ice cream</td>
+      <td>250.0</td>
+      <td>300</td>
+      <td>Desserts sweets</td>
+      <td>2 cups</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>10.0</td>
+      <td>0.0</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>299</th>
+      <td>9" diam. pie</td>
+      <td>330.0</td>
+      <td>135</td>
+      <td>Desserts sweets</td>
+      <td>1 slice</td>
+      <td>3.0</td>
+      <td>13</td>
+      <td>0.1</td>
+      <td>53.0</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>300</th>
+      <td>Cherry Pie</td>
+      <td>340.0</td>
+      <td>135</td>
+      <td>Desserts sweets</td>
+      <td>1 slice</td>
+      <td>3.0</td>
+      <td>13</td>
+      <td>0.1</td>
+      <td>55.0</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>302</th>
+      <td>Lemon meringue</td>
+      <td>300.0</td>
+      <td>120</td>
+      <td>Desserts sweets</td>
+      <td>1 slice</td>
+      <td>4.0</td>
+      <td>12</td>
+      <td>0.1</td>
+      <td>45.0</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>303</th>
+      <td>Mince</td>
+      <td>340.0</td>
+      <td>135</td>
+      <td>Desserts sweets</td>
+      <td>1 slice</td>
+      <td>3.0</td>
+      <td>9</td>
+      <td>0.7</td>
+      <td>62.0</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>310</th>
+      <td>Tapioca cream pudding</td>
+      <td>335.0</td>
+      <td>250</td>
+      <td>Desserts sweets</td>
+      <td>1 cup</td>
+      <td>10.0</td>
+      <td>10</td>
+      <td>0.0</td>
+      <td>42.0</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>316</th>
+      <td>Peanut butter</td>
+      <td>300.0</td>
+      <td>50</td>
+      <td>Seeds and Nuts</td>
+      <td>1/3 cup</td>
+      <td>12.0</td>
+      <td>25</td>
+      <td>0.9</td>
+      <td>9.0</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>319</th>
+      <td>Pecans</td>
+      <td>343.0</td>
+      <td>52</td>
+      <td>Seeds and Nuts</td>
+      <td>1/2 cup</td>
+      <td>5.0</td>
+      <td>35</td>
+      <td>1.1</td>
+      <td>7.0</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>322</th>
+      <td>Walnuts</td>
+      <td>325.0</td>
+      <td>50</td>
+      <td>Seeds and Nuts</td>
+      <td>1/2 cup</td>
+      <td>7.0</td>
+      <td>32</td>
+      <td>1.0</td>
+      <td>8.0</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
