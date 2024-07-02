@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Assistant</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1 class="mt-5 mb-3">Chat Assistant</h1>
+    <div class="container" id="chatbox">
+        <div id="chatlog"></div>
+        <input type="text" id="usermsg" class="form-control">
+        <button onclick="sendMsg()" class="btn btn-primary">Send</button>
+    </div>
+
+    <script>
+        const chatlog = document.getElementById('chatlog');
+        const usermsg = document.getElementById('usermsg');
+
+        function sendMsg() {
+            const msg = usermsg.value;
+            chatlog.innerHTML += '<p>You: ' + msg + '</p>';
+            usermsg.value = '';
+
+            axios.post('/chat', {
+                input_prompt: msg
+            })
+            .then(function (response) {
+                const chat_response = response.data.chat_response;
+                chatlog.innerHTML += '<p>Bot: ' + chat_response + '</p>';
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+        }
+    </script>
+</body>
+</html>

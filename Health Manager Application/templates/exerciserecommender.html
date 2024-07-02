@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table</title>
+      <!-- Load Bootstrap CSS from a CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<style>
+tbody th {
+  background-color: #36c;
+  color: #fff;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) th {
+  background-color: #25c;
+}
+
+  .container {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 50px;
+            text-align: center;
+            background-color:#F5EBEB;
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color : #867070;
+        }
+        p {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 20px;
+            color:#66347F;
+            background-color:#D5B4B4;
+        }
+</style>
+  <div class="container">
+        <h1>Exercise Recommender</h1>
+        <p>Calories needs to burn: {{ calorie2burn }}</p>
+    <button type="button" class="btn btn-default" onclick="window.location.href='{{ url_for('index') }}'"> Dashboard</button>
+    </div>
+    <div class="container">
+    {{ table_data|safe }}
+    </div>
+</body>
+</html>

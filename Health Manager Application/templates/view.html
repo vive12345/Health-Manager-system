@@ -1,0 +1,71 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <title>List</title>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--<h3>user's Information</h3>-->
+<!--<table border=5>-->
+<!--    <thead>-->
+<!--        <td>ID</td>-->
+<!--        <td>activity name</td>-->
+<!--        <td>time</td>-->
+<!--    </thead>-->
+
+<!--    {% for row in rows %}-->
+
+<!--        <tr>-->
+<!--            <td>{{row["id"]}}</td>-->
+<!--            <td>{{row["aname"]}}</td>-->
+<!--            <td>{{row["time"]}}</td>-->
+<!--        </tr>-->
+
+<!--    {% endfor %}-->
+<!--</table>-->
+<!--<br><br>-->
+
+<!--<a href="/">Go back to home page</a>-->
+
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <h3 class="mt-3">User's Information</h3>
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Activity Name</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for row in rows %}
+                <tr>
+                    <td>{{ row["id"]-1 }}</td>
+                    <td>{{ row["name"] }}</td>
+                    <td>{{ row["time"] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <br><br>
+    <a href="/templates/index_schedule.html" class="btn btn-primary">Go Back</a>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

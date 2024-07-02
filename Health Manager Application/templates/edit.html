@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User Info</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-Hry7KuYolBbW7V0hcBxjOwJmEomOz62B7r2t/eJ46lA+riYIzstV1L5jK/v5y5E2EDykR+I7KjScPXTN0oxA3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            padding: 30px;
+        }
+
+
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2a2a2a;
+            text-align: center;
+            margin-bottom: 40px;
+            color:green;
+        }
+
+        .form-label {
+            font-weight: bold;
+            color: #666666;
+            font-size: 18px;
+        }
+
+        .form-control {
+            border-radius: 0;
+            font-size: 16px;
+            padding: 16px;
+            border: none;
+            border-bottom: 2px solid #d9d9d9;
+            box-shadow: none;
+        }
+
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: none;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            border-radius: 0;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 16px 32px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #0069d9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container col-lg-4 col-md-4 col-sm-4 justify-content-center ">
+        <h1>EDIT PROFILE</h1>
+        <form action="{{ url_for('edit') }}" method="post">
+            <div class="mb-4">
+                <label for="nname" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="nname" name="name" placeholder="First Name">
+            </div> <br>
+            <div class="mb-4">
+                <label for="aage" class="form-label">Age:</label>
+                <input type="text" class="form-control" id="aage" name="age" placeholder="Age">
+            </div> <br>
+            <div class="mb-4">
+                <label for="ggender" class="form-label">Gender:</label>
+                <input type="text" class="form-control" id="ggender" name="gender" placeholder="Gender">
+            </div><br>
+            <div class="mb-4">
+                <label for="hheight" class="form-label">Height (in cm):</label>
+                <input type="text" class="form-control" id="hheight" name="height" placeholder="Height">
+            </div><br>
+            <div class="mb-4">
+                <label for="wweight" class="form-label">Weight (in kg):</label>
+                <input type="text" class="form-control" id="wweight" name="weight" placeholder="Weight">
+            </div> <br>
+            <button type="submit" class="btn btn-primary" href="url_for('profile')">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

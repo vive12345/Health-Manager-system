@@ -1,0 +1,76 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--	<title>Schedule Form</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--	<h1>Enter Your Schedule</h1>-->
+<!--	<form method="POST" action="/schedule_func">-->
+<!--		<label for="wakeup-time">Wakeup Time:</label>-->
+<!--		<input type="time" id="wakeup-time" name="wakeup-time"><br><br>-->
+<!--		<label for="lunch-time">Lunch Time:</label>-->
+<!--		<input type="time" id="lunch-time" name="lunch-time"><br><br>-->
+<!--        <button type="submit">submit</button>-->
+<!--    </form>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Schedule Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            margin-top: 50px;
+        }
+        form {
+            margin-top: 50px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+        label {
+            color: #007bff;
+            font-weight: bold;
+        }
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border-color: #007bff;
+        }
+        button[type="submit"]:hover {
+            background-color: #0069d9;
+            color: #fff;
+            border-color: #0062cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Your Schedule</h1>
+        <form method="POST" action="/schedule_func">
+            <div class="form-group">
+                <label for="wakeup-time">Wakeup Time:</label>
+                <input type="time" class="form-control" id="wakeup-time" name="wakeup-time">
+            </div>
+            <div class="form-group">
+                <label for="lunch-time">Lunch Time:</label>
+                <input type="time" class="form-control" id="lunch-time" name="lunch-time">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

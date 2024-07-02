@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .btn-custom {
+            background-color: #007bff;
+            color: #fff;
+            border-color: #007bff;
+        }
+        .btn-custom:hover {
+            background-color: #0069d9;
+            color: #fff;
+            border-color: #0062cc;
+        }
+        .size_class{
+            width: 50%;
+            margin: auto;
+            margin-top: 10%;
+        }
+    </style>
+</head>
+<body class="d-flex justify-content-center align-items-center">
+    <div class="container d-flex flex-column text-center size_class">
+        <h2>Set your Daily Schedule to receive SMS reminders</h2>
+        <br>
+        <button class="btn btn-custom mb-3" onclick="window.location.href='add'">Add Schedule</button>
+        <button class="btn btn-custom mb-3" onclick="window.location.href='view'">List of Schedules</button>
+        <button class="btn btn-custom mb-3" onclick="window.location.href='delete'">Delete Schedule</button>
+        <br>
+        <button class="btn btn-secondary" onclick="window.location.href='/index'">Go Back to Home Page</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+

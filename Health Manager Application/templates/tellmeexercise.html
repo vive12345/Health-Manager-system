@@ -1,0 +1,49 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Edit Profile</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<form action="{{ url_for('tell_func') }}" method="POST">-->
+<!--<label for="tell">tell me what exercise you did today? :</label>-->
+<!--<input type="text" id="tell" name="tellme1" >-->
+<!--<button type="submit">Submit</button>-->
+<!--</form>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Today's Exercise</title>
+  <!-- Load Bootstrap CSS from a CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center align-items-center" style="height: 100vh;">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Today's Exercise</h4>
+          </div>
+          <div class="card-body">
+            <form action="{{ url_for('tell_func') }}" method="POST">
+              <div class="form-group">
+                <label for="exercise">tell me what exercise you did today and i will show you how much calories u have burned :</label>
+                <input type="text" class="form-control" id="exercise" placeholder="Enter exercise" name="tellme1">
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Load Bootstrap JS from a CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

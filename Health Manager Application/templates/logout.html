@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <h1>Welcome, {{ email }}!</h1>
+    <form action="{{ url_for('logout') }}" method="post">
+
+      <button type="submit" class="btn btn-primary"><a href="/logout">Logout</a></button>
+    </form>
+  </body>
+</html>

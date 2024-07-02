@@ -1,0 +1,71 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Calories Tracker</title>-->
+<!--    &lt;!&ndash; Bootstrap CSS &ndash;&gt;-->
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+<!--    &lt;!&ndash; jQuery &ndash;&gt;-->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<!--    &lt;!&ndash; Bootstrap JavaScript &ndash;&gt;-->
+<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="container">-->
+<!--        <h1>Calories Tracker</h1>-->
+<!--        <p>Calories intake needed: {{ calories_intake_needed }}</p>-->
+<!--        <p>Total calories burned today: {{ total_calories_burn_today }}</p>-->
+<!--        <p>Calories left to burn: {{ calories_left_to_burn }}</p>-->
+<!--         <button type="button" class="btn btn-default" onclick="window.location.href='{{ url_for('index') }}'"> DashBoard</button>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calories Tracker</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .container {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 50px;
+            text-align: center;
+            background-color:#DAF5FF;
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color : #0B2447;
+        }
+        p {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 20px;
+            color:#66347F;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Calories Calculator</h1>
+        <p>{{calorie_maintain}}</p>
+        <p>Calories intake needed: {{ calories_intake_needed }}</p>
+        <p>Exercise Calorie : {{ calories_burn }}</p>
+        <p>Food Calories : {{ calories_gain }}</p>
+        <p>Net Calories : {{ net_calorie }}</p>
+
+
+         <button type="button" class="btn btn-default" onclick="window.location.href='{{ url_for('suggestion') }}'"> Recommend</button>
+    <button type="button" class="btn btn-default" onclick="window.location.href='{{ url_for('index') }}'"> Dashboard</button>
+    </div>
+</body>
+</html>

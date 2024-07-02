@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table</title>
+      <!-- Load Bootstrap CSS from a CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    {{ table|safe }}
+<button type="button" class="btn btn-default" onclick="window.location.href='{{ url_for('index') }}'"> Dashboard</button>
+</body>
+</html>

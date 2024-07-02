@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>today's exercise </title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-5P5ooF9jK5xH+ebvEJWp8LZLv0GZ6Jp3cn+fq0YqD2Qe9yJxcpbdRUKmEq8WJ5Z5h5r1ei2c5e5ZZ5HhO9Jf6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F8F8F8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #FFFFFF;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        button {
+            margin-top: 20px;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #FFFFFF;
+            background-color: #2F4F4F;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            background-color: #696969;
+        }
+
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>User Exercise Details</h1>
+        <p><strong>Date:</strong> {{ goal_dict['workout']['date'] }}</p>
+        <p><strong>Time:</strong> {{ goal_dict['workout']['time'] }}</p>
+        <p><strong>Exercise:</strong> {{goal_dict['workout']['exercise']}}</p>
+        <p><strong>Duration:</strong> {{ goal_dict['workout']['duration']}}</p>
+        <p><strong>Calories Burn:</strong> {{ goal_dict['workout']['calories'] }}</p>
+        <div class="d-flex justify-content-end">
+            <button type="submit"><a href='/index'>Dashboard</a></button>
+        </div>
+    </div>
+</body>
+</html>

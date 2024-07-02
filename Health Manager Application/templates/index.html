@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Health Manager</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="static/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="static/images/logo.svg" alt="" /></span><span class="title">Health Manager</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="templates/profile.html">Profile</a></li>
+							<li><a href="/templates/tellmeexercise.html">Exercise calorie Calculator</a></li>
+							<li><a href="templates/tellmefood.html">Food calorie Calculator</a></li>
+							<li><a href="templates/calories.html">Calories Calculator</a></li>
+							<li><a href="templates/table.html">Previous Exercise achievments</a></li>
+							<li><a href="templates/index_schedule.html">Schedule</a></li>
+							<li><a href="templates/openaiUI.html">Assistant</a></li>
+							<li><a href="templates/logout.html">Logout</a></li>
+
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main thisbigdiv">
+						<div class="inner">
+							<header>
+								<h1> Latest News Articles <br/> </h1>
+								<p> “I believe that the greatest gift you can give your family and the world is a healthy you.”
+									– Joyce Meyer </p>
+							</header>
+							<section class="tiles">
+								 <div class="container">
+									  <div class="row">
+										{% for news_item in news_list %}
+										<div class="col-lg-4 col-md-6 mb-4 thisdiv">
+										  <div class="card h-100">
+											<img class="card-img-top" src="{{ news_item['image_url'] }}" alt="{{ news_item['title'] }}">
+											<div class="card-body">
+											  <h4 class="card-title">{{ news_item['title'] }}</h4>
+											  <p class="card-text">{{ news_item['description'] }}</p>
+											</div>
+											<div class="card-footer">
+											  <a href="{{ news_item['url'] }}" class="btn btn-primary">Read more</a>
+											</div>
+										  </div>
+										</div>
+										{% endfor %}
+									  </div>
+									</div>
+							</section>
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+
+	</body>
+</html>
