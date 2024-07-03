@@ -17,11 +17,15 @@ You **won't** be able to run this solution code as is. Why? You'll need to add *
 -Database: SQL
 
 ## Project Functions and Features
-User-Friendly Interface: Users can input their activities in natural English, and the app records details such as the type and duration of exercises. The UI is designed to be simple and intuitive.
-Personalized Recommendations: Utilizing KNN algorithms, the app recommends exercises and foods based on user data.
-Motivation and Reminders: Sends regular notifications to users' phones with recommended exercises and foods based on their calorie goals.
-Chatbot Integration: Includes a chatbot feature using the ChatGPT API for interactive user support.
-Automatic Calculations: Automatically calculates BMR and the calories a user needs based on their input data.
+1.User-Friendly Interface: Users can input their activities in natural English, and the app records details such as the type and duration of exercises. The UI is designed to be simple and intuitive.
+
+2.Personalized Recommendations: Utilizing KNN algorithms, the app recommends exercises and foods based on user data.
+
+3.Motivation and Reminders: Sends regular notifications to users' phones with recommended exercises and foods based on their calorie goals.
+
+4.Chatbot Integration: Includes a chatbot feature using the ChatGPT API for interactive user support.
+
+5.Automatic Calculations: Automatically calculates BMR and the calories a user needs based on their input data.
 
 ## PyCharm Environment Variables
 
